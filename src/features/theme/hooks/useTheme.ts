@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
-
-type Theme = "light" | "dark"
+import type { Theme } from "../types/theme.types";
 
 export function useTheme() {
     const [theme, setTheme] = useState<Theme>(() => {

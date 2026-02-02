@@ -1,4 +1,4 @@
-import { ThemeToggle } from "./components/ui/ThemeToggle";
+import { ThemeToggle } from "../features/theme/components/ThemeToggle";
 
 export function App() {
   return (

@@ -6,13 +6,13 @@ import { DividerX } from "../Divider/DividerX";
 import { NavLink } from "react-router";
 
 const navItemBase =
-  "flex gap-2 items-center p-2 rounded-md transition-colors px-4";
+  "flex gap-2 items-center p-2 rounded-md transition-colors px-4 m-1";
 
 const navItemActive =
-  "bg-blue-50 text-blue-600 font-medium";
+  "bg-blue-50 text-blue-600 font-medium m-1";
 
 const navItemInactive =
-  "text-gray-700 hover:bg-gray-100";
+  "text-gray-700 hover:bg-gray-100 hover:m-1";
 
 export const Sidebar = () => {
   return (

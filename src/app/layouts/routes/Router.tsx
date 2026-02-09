@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router";
-import { Home } from "../../../pages/Home";
+import { Appointments } from "../../../pages/Appointments";
 import { MainLayout } from "../MainLayout";
 import { Hours } from "../../../pages/Hours";
 import { Services } from "../../../pages/Services";
@@ -9,7 +9,7 @@ export const Router = () => {
   return (
     <Routes>
       <Route element={<MainLayout />}>
-        <Route index element={<Home />} />
+        <Route index element={<Appointments />} />
         <Route path="hours" element={<Hours />} />
         <Route path="services" element={<Services />} />
         <Route path="reports" element={<Reports />} />

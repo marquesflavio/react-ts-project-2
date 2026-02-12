@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router";
-import { Appointments } from "../../../pages/Appointments";
+import { Appointments } from "@/pages/Appointments";
 import { MainLayout } from "../MainLayout";
-import { Hours } from "../../../pages/Hours";
-import { Services } from "../../../pages/Services";
-import { Reports } from "../../../pages/Reports";
+import { Hours } from "@/pages/Hours";
+import { Services } from "@/pages/Services";
+import { Reports } from "@/pages/Reports";
 
 export const Router = () => {
   return (
